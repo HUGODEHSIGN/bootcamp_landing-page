@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  padding: 5px 20px;
+  background-color: #bf6900;
+  position: fixed;
+  width: 100%;
+}
+
+.menu {
+  text-align: right;
+  margin-right: 50px;
+  :hover {
+    background-color: #7a4300;
+  }
+}
+
+.menu__item {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 200ms ease all;
+}
+
+.main-container {
+  padding-top: 25px;
+  text-align: center;
+}
+
+section {
+  margin: 50px 0;
+  padding: 25px;
+}
+
+.website-section {
+  width: 50%;
+  margin: 0 auto;
+
+  p {
+    padding-top: 20px;
+  }
+}
+
+.form-section {
+  background-color: #d3f9b5;
+  margin-bottom: 0;
+  h2 {
+    margin-bottom: 20px;
+  }
+}
+
+.form {
+  background-color: white;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.form__item {
+  padding: 5px;
+}
+
+.form__item--field {
+  input {
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+  }
+}
+
+.form__item--button {
+  background-color: #d3f9b5;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  transition: 200ms ease all;
+  font-weight: bold;
+}
+
+.form__item--button:hover {
+  background-color: #9bd172;
+}
+
+footer {
+  background-color: #3d0c11;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
